@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "ShortBaby-Mg2w";
+  src: local("ShortBaby-Mg2w"),
+    url(../fonts/ShortBaby-Mg2w.ttf) format("truetype");
+  font-weight: normal;
+}
+
+.Skincare {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15vh;
+  padding-bottom: 5vh;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 5vh;
+  background-color: rgb(218, 243, 253);
+}
+
+.Skincare-photo {
+  background-color: whitesmoke;
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: rgb(87, 82, 82) 1px 1px 4px 2px;
+}
+
+.Photo {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}

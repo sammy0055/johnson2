@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "orange-juice-2.0.ttf";
+  src: local("orange-juice-2.0.ttf"),
+    url(../fonts/orange-juice-2.0.ttf) format("truetype");
+  font-weight: normal;
+}
+
+.Sec {
+  background-image: url(../assets/johnson/backimage_2.jpg);
+  background-size: cover;
+  margin-bottom: 5vh;
+}
+.Section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  color: #22617e;
+  font-style: initial;
+  font-variant: small-caps;
+  text-align: center;
+  font-family: "Cambria Math";
+  font-size: 1.7vw;
+  background-image: url(../assets/johnson/backimage.jpg);
+  background-size: cover;
+  width: 80%;
+}
